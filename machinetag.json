@@ -1,0 +1,242 @@
+{
+    "namespace": "ncscc",
+    "expanded": "Таксономія НКЦК",
+    "description": "Перелік категорій кіберінцидентів (далі – Перелік) розроблений на основі Переліку категорій кіберінцидентів, схваленого Національним координаційним центром кібербезпеки при Раді національної безпеки та оборони України (Протокол № 18 засідання Національного координаційного центру кібербезпеки при Раді національної безпеки і оборони України від 25.10.2021 (від 28.10.2021 № 16/320/21дск)).",
+    "version": 1,
+    "predicates": [
+      {
+        "value": "abusive-content",
+        "description": "Шкідливий контент",
+        "expanded": "Abusive content"
+      },
+      {
+        "value": "maliciouse-code",
+        "description": "Шкідливий програмний код",
+        "expanded": "Malicious Code"
+      },
+      {
+        "value": "information-gathering",
+        "description": "Збір інформації зловмисником",
+        "expanded": "Information Gathering"
+      },
+      {
+        "value": "intrusion-attempts",
+        "description": "Спроби втручання",
+        "expanded": "Intrusion Attempts"
+      },
+      {
+        "value": "intrusion",
+        "description": "Втручання",
+        "expanded": "Intrusion"
+      },
+      {
+        "value": "availability",
+        "description": "Порушення доступності",
+        "expanded": "Availability"
+      },
+      {
+        "value": "information-content-security",
+        "description": "Порушення властивостей інформації",
+        "expanded": "Information Content Security"
+      },
+      {
+        "value": "fraud",
+        "description": "Шахрайство",
+        "expanded": "Fraud"
+      },
+      {
+        "value": "vulnerable",
+        "description": "Відома вразливість",
+        "expanded": "Vulnerable"
+      },
+      {
+        "value": "other",
+        "description": "Інше",
+        "expanded": "Other"
+      }
+    ],
+
+
+
+
+
+
+
+    "values": [
+      {
+        "predicate": "abusive-content",
+        "entry": [
+          {
+            "value": "01.01",
+            "expanded": "Spam",
+            "description": "Надсилання небажаних повідомлень або великої кількості повідомлень (флуд)"
+          }
+        ]
+      },
+
+      {
+        "predicate": "maliciouse-code",
+        "entry": [
+          {
+            "value": "02.01",
+            "expanded": "Malware infection",
+            "description": "Зараження шкідливим програмним забезпеченням"
+          },
+          {
+            "value": "02.02",
+            "expanded": "Malware destribution",
+            "description": "Розповсюдження ШПЗ"
+          },
+          {
+            "value": "02.03",
+            "expanded": "Command & Control",
+            "description": "Командно-контрольний центр (С2)"
+          },
+          {
+            "value": "02.04",
+            "expanded": "Malicious connection",
+            "description": "Шкідливе підключення"
+          }
+        ]
+      },
+
+
+      {
+        "predicate": "information-gathering",
+        "entry": [
+          {
+            "value": "03.01",
+            "expanded": "Scanning",
+            "description": "Збір інформації про системи або мережі"
+          },
+          {
+            "value": "03.02",
+            "expanded": "Sniffing",
+            "description": "Несанкціоноване перехоплення (логічне або фізичне) та аналіз мережевого трафіку. Несанкціонований моніторинг та зчитування мережевого трафіку."
+          },
+          {
+            "value": "03.03",
+            "expanded": "Phishing",
+            "description": "Спроба збору інформаціх про користувача чи систему за допомогою соціальної інденерії."
+          }
+        ]
+      },
+
+
+      {
+        "predicate": "intrusion-attempts",
+        "entry": [
+          {
+            "value": "04.01",
+            "expanded": "Vulnerability exploitation attempt",
+            "description": "Спроба вторгнення з використанням вразливості у системі компоненті чи мережі."
+          },
+          {
+            "value": "04.02",
+            "expanded": "Login attempts",
+            "description": "Спроба входу до служю або механізмів автентифікації/доступу. Невдала спроба підбору автентифікаційних даних чи використання раніше скомпрометованих вже не актуальних даних."
+          }
+        ]
+      },
+
+
+      {
+        "predicate": "intrusion",
+        "entry": [
+          {
+            "value": "05.01",
+            "expanded": "Account compromise",
+            "description": "Фактичне вторгнення в систему, компоненту або мережу шляхом компрометації облікового запису користувача або адміністратора"
+          },
+          {
+            "value": "05.02",
+            "expanded": "System compromise",
+            "description": "Фактичне вторгнення в систему чи її компоненту, сервісу, застосунку через використання вразливості в компоненті або мережі. Неанкціонований доступ до системи або компоненту в обхід системи контролю доступу."
+          }
+        ]
+      },
+
+
+      {
+        "predicate": "availability",
+        "entry": [
+          {
+            "value": "06.01",
+            "expanded": "DoS/DDoS",
+            "description": "Вплив на нормальне функціонування системи чи сервісу що досягається направленим з одного чи багатьох джерел до цільового ресурсу запитів для перенасичення пропускної здатності чи системних ресурсів"
+          },
+          {
+            "value": "06.02",
+            "expanded": "Sabotage",
+            "description": "Дії (навмисні або ненавмисні), спрямовані на пошкодження системи, переривання процесів, зміну або видалення інформації тощо"
+          },
+          {
+            "value": "06.03",
+            "expanded": "Outage, no malice",
+            "description": "Збій в роботі системи чи її компоненту без зловмисного втручання"
+          }
+        ]
+      },
+
+
+      {
+        "predicate": "information-content-security",
+        "entry": [
+          {
+            "value": "07.01",
+            "expanded": "Unauthorised access to information",
+            "description": "Несанкціонований доступ до інформації. Несанкціонований обмін конкретним набором інформації."
+          },
+          {
+            "value": "07.02",
+            "expanded": "Unauthorised modification of info",
+            "description": "Несанкціонована зміна або видалення певного набору інформації"
+          }
+        ]
+      },
+
+
+      {
+        "predicate": "fraud",
+        "entry": [
+          {
+            "value": "08.01",
+            "expanded": "Fraudulent site",
+            "description": "Створення фішингових сайтів для збору автентифікаційних чи інших даних користувачів. Використання ресурсів установи для цілей, відмінних від передбачуваних."
+          }
+        ]
+      },
+
+
+      {
+        "predicate": "vulnerable",
+        "entry": [
+          {
+            "value": "09.01",
+            "expanded": "Vulnerability",
+            "description": "Наявність в системі чи її чомпонентах відомих вразливостей, відкритих для експлуатації"
+          },
+          {
+            "value": "09.02",
+            "expanded": "Misconfiguration",
+            "description": "Недоліки в налаштуваннях, що можуть бути використані зловмисником"
+          }
+        ]
+      },
+
+
+      {
+        "predicate": "other",
+        "entry": [
+          {
+            "value": "10.01",
+            "expanded": "Undetermined incident",
+            "description": "Невизначений інцидент"
+          }
+        ]
+      }
+
+      
+    ]
+  }
+  
