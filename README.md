@@ -1,4 +1,4 @@
-Перелік категорій кіберінцидентів (https://www.cip.gov.ua/ua/news/perelik-kategorii-kiberincidentiv від НКЦК)[https://www.cip.gov.ua/ua/news/perelik-kategorii-kiberincidentiv], для (The Hive 5)[https://docs.strangebee.com/]
+Перелік категорій кіберінцидентів [від НКЦК](https://www.cip.gov.ua/ua/news/perelik-kategorii-kiberincidentiv), для [The Hive 5](https://docs.strangebee.com/)
 
 # Документація
 
